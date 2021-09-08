@@ -2,7 +2,7 @@
   "integrationFolder": "features",
   "testFiles": "**/*.{feature,features}",
   "defaultCommandTimeout": 50000,
-  "video": false
+  "video": false,
   "viewportWidth": 1920,
   "viewportHeight": 1080,
   "animationDistanceThreshold": 20,
