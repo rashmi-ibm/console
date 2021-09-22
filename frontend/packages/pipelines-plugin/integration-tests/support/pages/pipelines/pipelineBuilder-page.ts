@@ -158,8 +158,8 @@ export const pipelineBuilderPage = {
     pipelineBuilderPage.enterPipelineName(pipelineName);
     pipelineBuilderPage.selectTask(taskName);
     pipelineBuilderPage.addResource(resourceName);
-    pipelineBuilderPage.clickOnTask(taskName);
-    pipelineBuilderSidePane.selectInputResource(resourceName);
+    //pipelineBuilderPage.clickOnTask(taskName);
+    //pipelineBuilderSidePane.selectInputResource(resourceName);
     pipelineBuilderPage.clickCreateButton();
     pipelineDetailsPage.verifyTitle(pipelineName);
   },
